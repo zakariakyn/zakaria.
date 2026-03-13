@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/zakaria./static/css/main.468b64da.css",
-    "main.js": "/zakaria./static/js/main.3d19c1dc.js",
+    "main.js": "/zakaria./static/js/main.ef157173.js",
     "index.html": "/zakaria./index.html",
     "main.468b64da.css.map": "/zakaria./static/css/main.468b64da.css.map",
-    "main.3d19c1dc.js.map": "/zakaria./static/js/main.3d19c1dc.js.map"
+    "main.ef157173.js.map": "/zakaria./static/js/main.ef157173.js.map"
   },
   "entrypoints": [
     "static/css/main.468b64da.css",
-    "static/js/main.3d19c1dc.js"
+    "static/js/main.ef157173.js"
   ]
 }
