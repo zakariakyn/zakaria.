@@ -4,6 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodeCrafters Studio | Développement Android & Web au Maroc</title>
+
+    <!-- ─── SEO Meta ─── -->
+    <meta name="description" content="CodeCrafters Studio — Agence de développement Android & Web basée à Marrakech, Maroc. Applications Kotlin, React, Full-Stack sur mesure." />
+    <meta name="keywords" content="développement android, application mobile maroc, react, kotlin, développeur freelance marrakech, site web professionnel" />
+    <meta name="author" content="Zakaria Kiyani — CodeCrafters Studio" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- ─── Open Graph (Facebook / LinkedIn) ─── -->
+    <meta property="og:title" content="CodeCrafters Studio | Développement Android & Web" />
+    <meta property="og:description" content="Applications natives Android & sites web React de haute qualité. Basé à Marrakech 🇲🇦. Devis gratuit sous 24h." />
+    <meta property="og:image" content="/logo.png" />
+    <meta property="og:url" content="https://codecraftersstudio.me" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_MA" />
+
+    <!-- ─── Twitter Card ─── -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CodeCrafters Studio" />
+    <meta name="twitter:description" content="Développement Android & Web sur mesure depuis Marrakech." />
+    <meta name="twitter:image" content="/logo.png" />
+
+    <!-- ─── Favicon ─── -->
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <!-- Fonts -->
@@ -130,9 +154,54 @@
         0%   { background-position: 200% 0; }
         100% { background-position: -200% 0; }
       }
+
+      /* Portfolio filter animation */
+      @keyframes fadeSlideUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
     </style>
-    <script type="module" crossorigin src="/assets/index-CrTcYOis.js"></script>
-  </head>
+    <!-- ─── Structured Data (Google Sitelinks) ─── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "CodeCrafters Studio",
+    "url": "https://codecraftersstudio.me",
+    "description": "Agence de développement Android & Web basée à Marrakech, Maroc.",
+    "inLanguage": "fr",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CodeCrafters Studio",
+      "url": "https://codecraftersstudio.me",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://codecraftersstudio.me/logo.png"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+212687639981",
+        "contactType": "customer service"
+      }
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SiteNavigationElement",
+    "name": ["Services", "Portfolio", "À propos", "Tarifs", "Contact"],
+    "url": [
+      "https://codecraftersstudio.me/services",
+      "https://codecraftersstudio.me/portfolio",
+      "https://codecraftersstudio.me/about",
+      "https://codecraftersstudio.me/pricing",
+      "https://codecraftersstudio.me/contact"
+    ]
+  }
+  </script>
+  <script type="module" crossorigin src="/assets/index-yfrnDGa6.js"></script>
+</head>
   <body class="bg-background text-on-background font-body selection:bg-primary/30 selection:text-primary overflow-x-hidden">
     <div id="root"></div>
   </body>
